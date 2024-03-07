@@ -1,11 +1,12 @@
 # .dotfiles
 ## Prerequisite
 1. asdf
-2. kube-ps1
-3. awscli
-4. kubectl
-5. istioctl
-6. terraform
+2. zsh
+3. kube-ps1
+4. awscli
+5. kubectl
+6. istioctl
+7. terraform
 
 ## Setup
 ```sh
@@ -16,7 +17,7 @@ git clone git@github.com:imcheck/.dotfiles ~/.dotfiles
 ln -s ~/.dotfiles/tmux/.tmux.conf ~
 
 # Vim
-ln -s ~/.dotfiles/vim/.vimrc
+ln -s ~/.dotfiles/vim/.vimrc ~
 
 # ZSH
 mkdir -p ~/.zsh
