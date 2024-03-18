@@ -42,7 +42,7 @@ setopt AUTO_CD
 alias l="ls -alh --color=auto"
 
 ## kubectl
-alias k="kubectl"
+alias k="kubecolor"
 alias kd="kubectl describe"
 alias kgp="kubectl get pods -o wide"
 

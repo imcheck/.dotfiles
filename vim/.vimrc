@@ -58,3 +58,6 @@ let g:go_auto_type_info = 1
 
 au filetype go inoremap <buffer> . .<C-x><C-o><C-p>
 set completeopt-=preview
+
+syntax on
+set re=0
